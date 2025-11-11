@@ -1,4 +1,8 @@
-checkout this repo on `~/.config/tmux_config`
+Clone this repo
+
+```bash
+git clone git@github.com:sirgallifrey/tmux_config.git ~/.config/tmux_config
+```
 
 Install TPM:
 
@@ -6,4 +10,8 @@ Install TPM:
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-create a file `~/.tmux.conf` with content `source-file ~/.config/tmux_config/tmux.conf`
+Create the tmux config file
+
+```bash
+echo "source-file ~/.config/tmux_config/tmux.conf" >> ~/.tmux.conf
+```
